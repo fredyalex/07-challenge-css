@@ -1,0 +1,18 @@
+/* Elements */
+
+html, body, h1, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-body), sans-serif;
+    font-size: var(--fs-body);
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-main);
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}

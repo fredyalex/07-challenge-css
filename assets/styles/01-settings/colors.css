@@ -1,0 +1,32 @@
+:root {
+    /* Primary Colors */
+    --color-purple-50: hsl(260, 100%, 95%);
+    --color-purple-300: hsl(264, 82%, 80%);
+    --color-purple-500: hsl(263, 55%, 52%);
+
+    /* Neutral Colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey-100: hsl(214, 17%, 92%);
+    --color-grey-200: hsl(0, 0%, 81%);
+    --color-grey-400: hsl(224, 10%, 45%);
+    --color-grey-500: hsl(217, 19%, 35%);
+    --color-dark-blue: hsl(219, 29%, 14%);
+    --color-black: hsl(0, 0%, 7%);
+
+    /* Backgrounds */
+    --color-bg-main: var(--color-grey-100);
+    --color-bg-card-purple: var(--color-purple-500);
+    --color-bg-card-grey: var(--color-grey-500);
+    --color-bg-card-light: var(--color-white);
+    --color-bg-card-dark: var(--color-dark-blue);
+
+    /* Text */
+    --color-text-white: var(--color-white);
+    --color-text-dark: var(--color-dark-blue);
+    --color-text-light: var(--color-purple-50);
+    --color-text-muted: var(--color-grey-400);
+    --color-text-primary: var(--color-purple-300);
+
+    /* Borders & Accents */
+    --color-border-avatar: var(--color-purple-300);
+}

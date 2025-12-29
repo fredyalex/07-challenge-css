@@ -1,0 +1,25 @@
+/* ITCSS - Settings: Spacing scale (margins, paddings, gaps)
+   Nota: 1rem = 14px. La escala está en rem para escalar con la raíz. */
+
+:root {
+    /* Base spacing unit */
+    --space-base: 8px;
+
+    /* Spacing scale */
+    --space-100: 4px;
+    --space-200: 8px;
+    --space-300: 12px;
+    --space-400: 16px;
+    --space-500: 20px;
+    --space-600: 24px;
+    --space-700: 32px;
+    --space-800: 40px;
+    --space-900: 48px;
+
+    /* Semantic Aliases */
+    --sp-card-padding: var(--space-500);
+    --sp-card-gap: var(--space-400);
+    --sp-user-gap: var(--space-300);
+    --sp-section-gap: var(--space-700);
+    --sp-container-padding: var(--space-600);
+}

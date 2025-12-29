@@ -1,0 +1,14 @@
+
+.og-testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--sp-section-gap);
+    width: min(1200px, 100%);
+}
+
+@media (min-width: 928px) {
+    .og-testimonials {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+}

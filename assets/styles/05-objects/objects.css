@@ -1,0 +1,13 @@
+/* Objects */
+
+.o-container {
+    margin: 0 auto;
+    padding: 0 4vh;
+    margin-block: 8vh;
+}
+
+.o-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+/* ITCSS - Settings: Radius / Borders / Shadows tokens */
+:root {
+    /* Border Radius */
+    --radius-base: 8px;
+    --radius-circle: 50%;
+
+    /* Borders */
+    --border-width-avatar: 2px;
+
+    /* Shadows */
+    --shadow-card: 40px 40px 50px -30px rgba(0, 0, 0, 0.5);
+
+    /* Semantic Aliases */
+    --radius-card: var(--radius-base);
+    --radius-avatar: var(--radius-circle);
+}

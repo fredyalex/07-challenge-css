@@ -1,0 +1,32 @@
+/* ITCSS: Settings → Typography tokens
+   Definición de variables para familias, tamaños, pesos, line-height y letter-spacing
+*/
+
+:root {
+    /* Font Family */
+    --font-family-main: 'Barlow Semi Condensed', sans-serif;
+
+    /* Font Sizes */
+    --fs-small: 11px;
+    --fs-body: 13px;
+    --fs-medium: 15px;
+    --fs-heading: 20px;
+
+    /* Font Weights */
+    --fw-medium: 500;
+    --fw-semibold: 600;
+
+    /* Line Heights */
+    --lh-base: 1.2;
+    --lh-relaxed: 1.4;
+
+    /* Semantic Aliases */
+    --ff-body: var(--font-family-main);
+    --fs-main-body: var(--fs-body);
+    --fw-body: var(--fw-medium);
+    --fs-quote: var(--fs-heading);
+    --fs-attribution: var(--fs-body);
+    --fs-user-name: var(--fs-body);
+    --fs-user-status: var(--fs-small);
+}
+

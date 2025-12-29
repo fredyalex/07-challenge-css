@@ -1,0 +1,9 @@
+.a-image__round {
+    border-radius: var(--radius-circle);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.a-image__round--border-purple{
+    border: var(--border-width-avatar) solid var(--color-border-avatar);
+}
